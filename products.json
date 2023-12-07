@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "chuteira ferrari preta",
+        "price": 79.99,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
+        "category": "sapatos",
+        "image": "../assets/images/chuteira-ferrari-preta.png"
+    },
+    {
+        "id": 2,
+        "name": "blusa preta fem",
+        "price": 54.99,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
+        "category": "blusas",
+        "image": "../assets/images/blusa-preta-fem.png"
+    },
+    {
+        "id": 3,
+        "name": "camiseta laranja fem",
+        "price": 39.99,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
+        "category": "camisas",
+        "image": "../assets/images/camiseta-laranja-fem.png"
+    },
+    {
+        "id": 4,
+        "name": "camiseta preta",
+        "price": 44.99,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
+        "category": "camisas",
+        "image": "../assets/images/camiseta-preta.png"
+    },
+    {
+        "id": 5,
+        "name": "sandalia marrom fem",
+        "price": 29.99,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
+        "category": "sandalias",
+        "image": "../assets/images/sandalia-marrom-fem.png"
+    },
+    {
+        "id": 6,
+        "name": "tenis branco masc",
+        "price": 69.99,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
+        "category": "sapatos",
+        "image": "../assets/images/tenis-branco-masc.png"
+    }
+]

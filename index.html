@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="header" id="home">
+        <a href="#banners" class="logo">Logo</a>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#services-section">Services</a></li>
+                <li><a href="#shop-section">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+
+        <div class="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </header>
+
+    <section class="banner" id="banners">
+        <h4>Surpreeenda-se</h4>
+        <h2>ótimas ofertas</h2>
+        <h1>Em todos os produtos</h1>
+        <p>Economize mais com cupons e até 70% de desconto</p>
+        <button>vá as compras</button>
+    </section>
+
+       <main>
+        <section class="services" id="services-section">
+            <h1>Serviços</h1>
+            <p>Confira o que temos a oferecer a você.</p>
+            <div class="services-container">
+                <div class="service">
+                    <h2>Pagamento seguro.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ipsa in magni minus deserunt quae
+                        dicta quos illo voluptates</p>
+                </div>
+                <div class="service">
+                    <h2>Entrega rapida.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ipsa in magni minus deserunt quae
+                        dicta quos illo voluptates</p>
+                </div>
+                <div class="service">
+                    <h2>Frete grátis.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas ipsa in magni minus deserunt quae
+                        dicta quos illo voluptates</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop" id="shop-section">
+            <h1>Nossos principais produtos</h1>
+
+            <div class="search-box">
+                <input type="search" id="search-input" placeholder="Search...">
+                <button class="icon" id="search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+
+            <div class="buttons">
+                <button class="button-value" onclick="filterProduct('todos')">todos</button>
+                <button class="button-value" onclick="filterProduct('camisas')">camisas</button>
+                <button class="button-value" onclick="filterProduct('blusas')">blusas</button>
+                <button class="button-value" onclick="filterProduct('sapatos')">sapatos</button>
+                <button class="button-value" onclick="filterProduct('sandalias')">sandalias</button>
+            </div>
+
+            <div class="products"></div>
+        </section>
+    </main>
+
+    <footer id="about">
+        <div class="container">
+            <div class="contact">
+                <h4>Contato</h4>
+                <span>Enderenço: lorem ipsum</span>
+                <span>Telefone: (99)99999-9999</span>
+                <span>Horarios</span>
+            </div>
+    
+            <div class="about">
+                <h4>Sobre</h4>
+                <span>Sobre nós</span>
+                <span>Informções de envio</span>
+                <span>Politicas de privacidade</span>
+                <span>Termos e condições</span>
+                <span>Entre em contato</span>
+            </div>
+    
+            <div class="my-account">
+                <h4>Minha conta</h4>
+                <span>Entar</span>
+                <span>Ver carrinho</span>
+                <span>ajuda</span>
+            </div>
+        </div>
+        <div class="copy">
+            <h4>Projeto desenvolvido com o intuito de aprender mais sobre Front end &copy;Yuri</h4>
+        </div>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
