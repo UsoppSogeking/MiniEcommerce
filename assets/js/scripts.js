@@ -14,15 +14,17 @@ if (close) {
     })
 }
 
-let http = new XMLHttpRequest();
+const initApp = () => {
+    fetch('products.json')
+        .then(response => response.json())
+        .then(data => {
+            products = data;
+            addDataToHTML();
+        });
+}
 
-http.open('get', './products.json', true);
-http.send();
-
-http.onload = function () {
-    if (this.readyState == 4 && this.status == 200) {
-
-        let products = JSON.parse(this.responseText);
+const addDataToHTML = () => {
+    if (products.length > 0) {
         let output = "";
 
         for (let item of products) {
@@ -37,9 +39,9 @@ http.onload = function () {
         }
         document.querySelector(".products").innerHTML = output;
     }
-
-    
 }
+
+initApp();
 
 function filterProduct(value) {
     let buttons = document.querySelectorAll(".button-value");
