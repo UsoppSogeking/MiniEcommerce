@@ -1,6 +1,7 @@
 const bar = document.querySelector("#bar");
 const close = document.querySelector("#close");
 const nav = document.querySelector(".navbar");
+let listProduct = document.querySelector(".products");
 
 if (bar) {
     bar.addEventListener('click', () => {
@@ -25,19 +26,20 @@ const initApp = () => {
 
 const addDataToHTML = () => {
     if (products.length > 0) {
-        let output = "";
 
-        for (let item of products) {
-            output += `
-                <div class="product ${item.category}">
-                    <img src="${item.image}" alt="">
-                    <h4 class="name">${item.name}</h4>
-                    <span>${item.price}</span>
-                    <a href="/single-product-detail.html?id= + ${item.id}">Adicionar ao carrinho</a>
-                </div>
-            `
-        }
-        document.querySelector(".products").innerHTML = output;
+        products.forEach(product => {
+            let newProduct = document.createElement('div');
+            newProduct.dataset.id = product.id;
+            newProduct.classList.add('product');
+            newProduct.innerHTML =
+                `
+            <img src="${product.image}" alt="">
+            <h4 class="name">${product.name}</h4>
+            <span>${product.price}</span>
+            <a href="/single-product-detail.html?id= + ${product.id}">Detalhes</a>
+            `;
+            listProduct.appendChild(newProduct);
+        });
     }
 }
 
