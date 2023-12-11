@@ -15,14 +15,7 @@ if (close) {
     })
 }
 
-const initApp = () => {
-    fetch('products.json')
-        .then(response => response.json())
-        .then(data => {
-            products = data;
-            addDataToHTML();
-        });
-}
+
 
 const addDataToHTML = () => {
     if (products.length > 0) {
@@ -30,7 +23,7 @@ const addDataToHTML = () => {
         products.forEach(product => {
             let newProduct = document.createElement('div');
             newProduct.dataset.id = product.id;
-            newProduct.classList.add('product');
+            newProduct.classList.add('product', `${product.category}`);
             newProduct.innerHTML =
             `<img src="${product.image} " alt="">
              <h4 class="name">${product.name}</h4>
@@ -39,6 +32,15 @@ const addDataToHTML = () => {
             listProduct.appendChild(newProduct);
         });
     }
+}
+
+const initApp = () => {
+    fetch('products.json')
+        .then(response => response.json())
+        .then(data => {
+            products = data;
+            addDataToHTML();
+        });
 }
 
 initApp();
