@@ -5,7 +5,7 @@
         "price": 79.99,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
         "category": "sapatos",
-        "image": "../assets/images/chuteira-ferrari-preta.png"
+        "image": "image/chuteira-ferrari-preta.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "price": 54.99,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
         "category": "blusas",
-        "image": "../assets/images/blusa-preta-fem.png"
+        "image": "image/blusa-preta-fem.png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "price": 39.99,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
         "category": "camisas",
-        "image": "../assets/images/camiseta-laranja-fem.png"
+        "image": "image/camiseta-laranja-fem.png"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "price": 44.99,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
         "category": "camisas",
-        "image": "../assets/images/camiseta-preta.png"
+        "image": "image/camiseta-preta.png"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "price": 29.99,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
         "category": "sandalias",
-        "image": "../assets/images/sandalia-marrom-fem.png"
+        "image": "image/sandalia-marrom-fem.png"
     },
     {
         "id": 6,
@@ -45,6 +45,6 @@
         "price": 69.99,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada congue nisi id interdum. Etiam tincidunt purus eget sem porttitor ultricies. Maecenas pellentesque vel lectus eget venenatis. Praesent imperdiet, tortor nec imperdiet dictum, metus turpis ultricies elit, vitae faucibus metus erat eu sapien.",
         "category": "sapatos",
-        "image": "../assets/images/tenis-branco-masc.png"
+        "image": "image/tenis-branco-masc.png"
     }
 ]
