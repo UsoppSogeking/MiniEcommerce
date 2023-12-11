@@ -32,12 +32,10 @@ const addDataToHTML = () => {
             newProduct.dataset.id = product.id;
             newProduct.classList.add('product');
             newProduct.innerHTML =
-                `
-            <img src="${product.image}" alt="">
-            <h4 class="name">${product.name}</h4>
-            <span>${product.price}</span>
-            <a href="/single-product-detail.html?id= + ${product.id}">Detalhes</a>
-            `;
+            `<img src="${product.image} " alt="">
+             <h4 class="name">${product.name}</h4>
+             <span>${product.price}</span>
+             <a href="/single-product-detail.html?id= + ${product.id}">Detalhes</a>`;
             listProduct.appendChild(newProduct);
         });
     }
@@ -86,3 +84,5 @@ document.getElementById("search").addEventListener("click", () => {
 window.onload = () => {
     filterProduct("todos");
 }
+
+
