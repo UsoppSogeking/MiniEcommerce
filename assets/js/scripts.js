@@ -28,7 +28,7 @@ const addDataToHTML = () => {
             `<img src="${product.image} " alt="">
              <h4 class="name">${product.name}</h4>
              <span>${product.price}</span>
-             <a href="/single-product-detail.html?id= + ${product.id}">Detalhes</a>`;
+             <a href="single-product-detail.html?id=${product.id}">Detalhes</a>`;
             listProduct.appendChild(newProduct);
         });
     }
